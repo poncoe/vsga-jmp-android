@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JMP Latihan Menu</string>
+    <string name="title_activity_menu1_java">Menu1Java</string>
+    <string name="menu_1">Menu 1</string>
+    <string name="menu_2">Menu 2</string>
+    <string name="menu_3">Menu 3</string>
+</resources>
