@@ -17,11 +17,22 @@ public class MainActivityJava extends AppCompatActivity {
         setContentView(R.layout.activity_main_java);
 
         final Button btnInternal = findViewById(R.id.btnInternal);
+        final Button btnExternal = findViewById(R.id.btnExternal);
+
         btnInternal.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(), InternalStorageJava.class);
+                startActivity(i);
+            }
+        });
+
+        btnExternal.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), ExternalStorageJava.class);
                 startActivity(i);
             }
         });

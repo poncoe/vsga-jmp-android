@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/activity_external_storage_java.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_external_storage_kotlin.xml" value="0.2578125" />
         <entry key="app/src/main/res/layout/activity_internal_storage_java.xml" value="0.2578125" />
         <entry key="app/src/main/res/layout/activity_internal_storage_kotlin.xml" value="0.2578125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2578125" />

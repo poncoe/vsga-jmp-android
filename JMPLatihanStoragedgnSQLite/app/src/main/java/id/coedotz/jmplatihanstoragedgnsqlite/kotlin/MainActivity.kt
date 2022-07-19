@@ -12,8 +12,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val btnInternal = findViewById<Button>(R.id.btnInternal)
+        val btnExternal = findViewById<Button>(R.id.btnExternal)
+
         btnInternal.setOnClickListener {
             startActivity(Intent(this, InternalStorageKotlin::class.java))
+        }
+
+        btnExternal.setOnClickListener {
+            startActivity(Intent(this, ExternalStorageKotlin::class.java))
         }
     }
 }
