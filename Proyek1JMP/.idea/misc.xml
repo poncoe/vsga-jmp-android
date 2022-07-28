@@ -6,6 +6,8 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.43658294677734377" />
         <entry key="app/src/main/res/layout/activity_main_java.xml" value="0.2578125" />
         <entry key="app/src/main/res/layout/activity_main_list_view_java.xml" value="0.2578125" />
+        <entry key="app/src/main/res/menu/mainmenu.xml" value="0.2578125" />
+        <entry key="app/src/main/res/menu/mainmenujava.xml" value="0.2578125" />
       </map>
     </option>
   </component>

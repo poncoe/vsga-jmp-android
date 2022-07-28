@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Proyek 1 JMP</string>
     <string name="yo_coedotz">Coedotz - JMP VSGA 2022 Telkom University</string>
+    <string name="aplikasi_input_nama">Aplikasi Input Nama</string>
+    <string name="aplikasi_kalkulator">Aplikasi Kalkulator</string>
+    <string name="aplikasi_listview">Aplikasi ListView</string>
 </resources>
