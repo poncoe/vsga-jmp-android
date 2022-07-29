@@ -7,6 +7,6 @@ import id.coedotz.proyek1jmp.R
 class KalkulatorKotlin : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_kalkulator_java2)
+        setContentView(R.layout.activity_kalkulator_kotlin)
     }
 }
