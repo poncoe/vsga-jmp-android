@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyek1JMP">
         <activity
+            android:name=".kotlin.ListViewKotlin"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin.KalkulatorKotlin"
+            android:exported="false" />
+        <activity
+            android:name=".kotlin.InputDataKotlin"
+            android:exported="false" />
+        <activity
+            android:name=".java.ListViewJava"
+            android:exported="false" />
+        <activity
+            android:name=".java.KalkulatorJava"
+            android:exported="false" />
+        <activity
+            android:name=".java.InputDataJava"
+            android:exported="false" />
+        <activity
             android:name=".kotlin.MainActivity"
             android:exported="true">
             <intent-filter>
@@ -18,19 +36,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- JAVA -->
-
-<!--        <activity-->
-<!--            android:name=".java.MainActivityJava"-->
-<!--            android:exported="true">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
-
     </application>
 
 </manifest>
