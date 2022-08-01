@@ -21,9 +21,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == R.id.menu1) {
-           // startActivity(Intent(this, Menu1Java::class.java))
+            startActivity(Intent(this, InputDataKotlin::class.java))
         } else if (item.itemId == R.id.menu2) {
-           // startActivity(Intent(this, Menu2Java::class.java))
+            startActivity(Intent(this, KalkulatorKotlin::class.java))
         } else if (item.itemId == R.id.menu3) {
            // startActivity(Intent(this, Menu3Java::class.java))
         }

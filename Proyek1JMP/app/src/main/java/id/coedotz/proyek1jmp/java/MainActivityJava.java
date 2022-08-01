@@ -28,9 +28,9 @@ public class MainActivityJava extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.menu1) {
-          //  startActivity(new Intent(this, Menu1Java.class));
+            startActivity(new Intent(this, InputDataJava.class));
         } else if (item.getItemId() == R.id.menu2) {
-           // startActivity(new Intent(this, Menu2Java.class));
+            startActivity(new Intent(this, KalkulatorJava.class));
         } else if (item.getItemId() == R.id.menu3) {
            // startActivity(new Intent(this, Menu3Java.class));
         }
