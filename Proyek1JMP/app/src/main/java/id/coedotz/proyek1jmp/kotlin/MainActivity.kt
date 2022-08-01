@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import id.coedotz.proyek1jmp.R
-import id.coedotz.proyek1jmp.java.KalkulatorJava
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         if (item.itemId == R.id.menu1) {
            // startActivity(Intent(this, Menu1Java::class.java))
         } else if (item.itemId == R.id.menu2) {
-            startActivity(Intent(this, KalkulatorJava::class.java))
+           // startActivity(Intent(this, Menu2Java::class.java))
         } else if (item.itemId == R.id.menu3) {
            // startActivity(Intent(this, Menu3Java::class.java))
         }
