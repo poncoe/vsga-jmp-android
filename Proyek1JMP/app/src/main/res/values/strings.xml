@@ -4,4 +4,10 @@
     <string name="aplikasi_input_nama">Aplikasi Input Nama</string>
     <string name="aplikasi_kalkulator">Aplikasi Kalkulator</string>
     <string name="aplikasi_listview">Aplikasi ListView</string>
+    <string name="teks_kalkulator">Masukan Dua Angka</string>
+    <string name="angka_pertama">Angka Pertama</string>
+    <string name="angka_kedua">Angka Kedua</string>
+    <string name="input_nama">Input Nama</string>
+    <string name="proses">Proses</string>
+    <string name="nama">Nama</string>
 </resources>
