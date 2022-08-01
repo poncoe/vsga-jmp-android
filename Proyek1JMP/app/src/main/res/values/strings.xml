@@ -10,4 +10,9 @@
     <string name="input_nama">Input Nama</string>
     <string name="proses">Proses</string>
     <string name="nama">Nama</string>
+    <string name="plus">+</string>
+    <string name="kurang">-</string>
+    <string name="bagi">/</string>
+    <string name="kali">X</string>
+    <string name="bersihkan">bersihkan</string>
 </resources>

@@ -52,4 +52,69 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/input_angka1"
         tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btn_plus"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/plus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_angka2" />
+
+    <Button
+        android:id="@+id/btn_kurang"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/kurang"
+        app:layout_constraintStart_toEndOf="@+id/btn_plus"
+        app:layout_constraintTop_toBottomOf="@+id/input_angka2" />
+
+    <Button
+        android:id="@+id/btn_bagi"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/bagi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_angka2" />
+
+    <Button
+        android:id="@+id/btn_kali"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/kali"
+        app:layout_constraintEnd_toStartOf="@+id/btn_bagi"
+        app:layout_constraintTop_toBottomOf="@+id/input_angka2" />
+
+    <Button
+        android:id="@+id/btn_bersihkan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/bersihkan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_plus" />
+
+    <TextView
+        android:id="@+id/txt_hasil_kalkulator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_bersihkan" />
 </androidx.constraintlayout.widget.ConstraintLayout>
