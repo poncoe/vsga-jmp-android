@@ -32,7 +32,7 @@ public class MainActivityJava extends AppCompatActivity {
         } else if (item.getItemId() == R.id.menu2) {
             startActivity(new Intent(this, KalkulatorJava.class));
         } else if (item.getItemId() == R.id.menu3) {
-           // startActivity(new Intent(this, Menu3Java.class));
+            startActivity(new Intent(this, ListViewJava.class));
         }
         return true;
     }

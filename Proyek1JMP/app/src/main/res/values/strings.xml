@@ -15,4 +15,17 @@
     <string name="bagi">/</string>
     <string name="kali">X</string>
     <string name="bersihkan">bersihkan</string>
+    
+    <string-array name="daftar_negara">
+        <item>Indonesia</item>
+        <item>Malaysia</item>
+        <item>Singapore</item>
+        <item>Italia</item>
+        <item>Inggris</item>
+        <item>Belanda</item>
+        <item>Argentina</item>
+        <item>Cile</item>
+        <item>Mesir</item>
+        <item>Uganda</item>
+    </string-array>
 </resources>

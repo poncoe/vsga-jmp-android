@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         } else if (item.itemId == R.id.menu2) {
             startActivity(Intent(this, KalkulatorKotlin::class.java))
         } else if (item.itemId == R.id.menu3) {
-           // startActivity(Intent(this, Menu3Java::class.java))
+            startActivity(Intent(this, ListViewKotlin::class.java))
         }
         return true
     }
