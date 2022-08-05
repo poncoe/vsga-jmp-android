@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/activity_list_negara_java.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/activity_list_negara_kotlin.xml" value="0.2578125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2578125" />
         <entry key="app/src/main/res/layout/activity_main_java.xml" value="0.2578125" />
       </map>
